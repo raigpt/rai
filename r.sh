@@ -1,7 +1,11 @@
+apt install git
 apt install sudo
-pkg install sudo
-apt-get install sudo
-yum install sudo
+git clone https://github.com/sudo-project/sudo.git
+cd sudo
+./configure
+make
+make install
+sudo -V
 sudo apt-get update
 sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_19.x | sudo -E bash -
