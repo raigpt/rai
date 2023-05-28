@@ -35,8 +35,8 @@ const askBing = async ({
 
   let options = {};
 
-  if (jailbreakConversationId == 'false') {
-    jailbreakConversationId = false;
+  if (jailbreakConversationId == 'true') {
+    jailbreakConversationId = true;
   }
 
   if (jailbreak)
