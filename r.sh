@@ -8,8 +8,6 @@ make install
 sudo -V
 sudo apt-get update
 sudo apt-get install curl
-curl -sL https://deb.nodesource.com/setup_19.x | sudo -E bash -
-sudo apt-get install -y nodejs
 npm install -g vite
 npm ci
 npm run frontend
