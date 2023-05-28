@@ -1,6 +1,6 @@
-cd api
-nano .env.example .env
-cd ..
+$ curl -sL https://deb.nodesource.com/setup_19.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+$ npm install -g vite
 npm ci
 npm run frontend
 $ sudo apt-get update
